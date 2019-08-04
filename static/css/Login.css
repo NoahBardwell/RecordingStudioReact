@@ -1,0 +1,100 @@
+h2 {
+color: white;
+}
+#top{
+    color:white;
+    text-align: center;
+    font-family: "Georgia";
+    font-size x-large;
+}
+.scheduled-times{
+  overflow:auto;
+  width:600px; 
+  overflow-y:scroll; 
+  position:relative;
+  height: 257px;
+}
+
+li{
+    list-style:none;
+    margin: 0;
+    padding: 36px 0 36px 84px;
+    background-repeat: no-repeat;
+    background-position:left center;
+    background-size:40px;
+    background-image:url('moving-disc.gif');
+}
+body{
+    margin-top: 200px;
+    background-color: gray;
+    margin: auto;
+    max-width: 500px;
+}
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* The image used */
+  background-image: url("studio-back.jpeg");
+
+  /* Control the height of the image */
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.scheduled-times,#time-form,#register-form, #login-form{
+  position: center;
+  right: 0;
+  margin: auto;
+  /*max-width: 300px;*/
+  width: 100%;
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+  input[type=username], input[type=password] ,input[type=reg-username], input[type=reg-pass],
+  input[type=date], input[type=time],input[id=start-time]:focus, input[id=end-time]:focus   {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+  input[type=reg-username]:focus, input[type=reg-password],
+  input[type=username]:focus, input[type=password]:focus,
+  input[type=date]:focus,input[id=start-time]:focus,input[id=end-time]:focus  {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+/* Set a style for the submit button */
+#delete-btn,#register-time-btn,#logout-btn, #login-btn, #register-switch-btn, #register-btn {
+  /*background-color: #4CAF50;*/
+  background-color: #3F51B5;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  position:center;
+}
+#register-time-btn,#login-btn, #register-switch-btn, #register-btn:hover {
+  opacity: 1;
+}
+
+    
